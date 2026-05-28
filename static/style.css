@@ -1,0 +1,57 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #f5c518;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f5c518;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+tr:hover {
+    background-color: #3a3a3a;
+}
+#searchBox {
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}input {
+    width: 50%;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #f5c518;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    outline: none;
+}
