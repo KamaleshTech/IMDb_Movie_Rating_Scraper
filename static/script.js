@@ -1,4 +1,4 @@
-fetch('../movies.csv')
+fetch('movies.csv')
     .then(response => response.text())
     .then(data => {
 
