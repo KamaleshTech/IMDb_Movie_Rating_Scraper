@@ -99,5 +99,6 @@ df.to_csv("movies.csv", index=False, encoding="utf-8-sig")
 
 print("Saved to movies.csv")
 print("Rows saved:", len(df))
+print("Data stored in CSV file successfully")
 
 driver.quit()
