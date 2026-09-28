@@ -2,11 +2,13 @@
 <html>
 <head>
     <title>IMDb Movie Ratings</title>
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
     <h1>IMDb Top 250 Movies</h1>
+
     <input type="text" id="searchBox" placeholder="Search movie...">
 
     <table id="movieTable">
@@ -23,7 +25,39 @@
         </tbody>
     </table>
 
-    <script src="static/script.js"></script>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <h3>IMDb Movie Rating Scraper</h3>
+
+        <p>
+            Data collected from IMDb Top 250 using
+            <span>Selenium</span> & <span>Python</span>
+        </p>
+
+        <p class="copyright">
+            © 2026 Kamalesh
+        </p>
+
+        <div class="footer-links">
+            <a href="https://github.com/KamaleshTech/IMDb_Movie_Rating_Scraper"
+               target="_blank">
+                GitHub
+            </a>
+
+            <span>•</span>
+
+            <a href="https://my-portfolio-kamalesh4.vercel.app/"
+               target="_blank">
+                Portfolio
+            </a>
+        </div>
+
+    </footer>
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 
 </body>
 </html>
