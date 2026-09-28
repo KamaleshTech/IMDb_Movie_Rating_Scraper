@@ -55,7 +55,10 @@ tr:hover {
     color: white;
     outline: none;
 }
-/* Footer */
+/* ================================
+   FOOTER
+================================ */
+
 .site-footer {
     margin-top: 60px;
     padding: 35px 20px;
@@ -64,47 +67,38 @@ tr:hover {
     text-align: center;
 }
 
-.footer-content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.footer-content h3 {
+.site-footer h3 {
     margin: 0 0 10px;
     color: #f5c518;
     font-size: 20px;
 }
 
-.footer-content p {
+.site-footer p {
     margin: 8px 0;
     color: #aaa;
     font-size: 14px;
 }
 
-.footer-content p span {
+.site-footer p span {
     color: #f5c518;
-    font-weight: 600;
+    font-weight: bold;
 }
 
-.copyright {
-    margin-top: 18px !important;
-    color: #777 !important;
-    font-size: 13px !important;
+.site-footer .copyright {
+    margin-top: 18px;
+    color: #777;
+    font-size: 13px;
 }
 
 .footer-links {
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
 }
 
 .footer-links a {
     color: #ddd;
     text-decoration: none;
+    margin: 0 8px;
     font-size: 14px;
-    transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
