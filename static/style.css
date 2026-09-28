@@ -55,3 +55,62 @@ tr:hover {
     color: white;
     outline: none;
 }
+/* Footer */
+.site-footer {
+    margin-top: 60px;
+    padding: 35px 20px;
+    background-color: #181818;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    margin: 0 0 10px;
+    color: #f5c518;
+    font-size: 20px;
+}
+
+.footer-content p {
+    margin: 8px 0;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.footer-content p span {
+    color: #f5c518;
+    font-weight: 600;
+}
+
+.copyright {
+    margin-top: 18px !important;
+    color: #777 !important;
+    font-size: 13px !important;
+}
+
+.footer-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #f5c518;
+}
+
+.footer-links span {
+    color: #555;
+}
